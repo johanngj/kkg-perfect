@@ -1,0 +1,1247 @@
+2024-02-18 03:56:58,098 INFO [Perfect]                 Book.java:601  | 9 sheets in Perfect.pdf
+2024-02-18 03:56:58,327 INFO []                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:56:58,329 INFO []                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:56:58,339 INFO []                 Book.java:1963 | Book reaching PAGE on sheets:[#1#2#3#4#5#6#7#8#9]
+2024-02-18 03:56:58,343 INFO [Perfect#1]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:56:58,848 INFO [Perfect#1]                 Book.java:1845 | Loaded image 1 2479x3506 from Perfect.pdf
+2024-02-18 03:56:58,858 INFO [Perfect#1]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:56:59,243 INFO [Perfect#1]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:56:59,272 INFO [Perfect#1]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:56:59,277 INFO [Perfect#1]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.38 of [6..19] range at 403% of needed quorum
+2024-02-18 03:56:59,277 INFO [Perfect#1]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,6) beam(11)}
+2024-02-18 03:56:59,278 INFO [Perfect#1]       StepMonitoring.java:98   | GRID
+2024-02-18 03:57:00,422 INFO [Perfect#1]       LinesRetriever.java:1490 | Global slope: -0.00529
+2024-02-18 03:57:00,504 INFO [Perfect#1]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:57:01,092 INFO [Perfect#1]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:57:01,250 INFO [Perfect#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{255-282 F#7849 T#1 [BRACE]}
+2024-02-18 03:57:01,251 INFO [Perfect#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{251-281 F#7850 T#2 [BRACE]}
+2024-02-18 03:57:01,252 INFO [Perfect#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{233-261 F#7853 T#5 [BRACE]}
+2024-02-18 03:57:01,253 INFO [Perfect#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{229-261 F#7854 T#6 [BRACE]}
+2024-02-18 03:57:01,253 INFO [Perfect#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{237-263 F#7857 T#9 [BRACE]}
+2024-02-18 03:57:01,253 INFO [Perfect#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{231-264 F#7858 T#10 [BRACE]}
+2024-02-18 03:57:01,255 INFO [Perfect#1]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:57:01,257 INFO [Perfect#1]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:57:01,258 INFO [Perfect#1]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:57:01,259 INFO [Perfect#1]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:57:01,259 INFO [Perfect#1]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:57:01,259 INFO [Perfect#1]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:57:02,656 INFO [Perfect#1]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:57:02,662 INFO [Perfect#1]                 Book.java:584  | Created scores: [{Score 1}]
+2024-02-18 03:57:02,664 INFO [Perfect#1]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:57:02,903 INFO [Perfect#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2024-02-18 03:57:02,914 INFO [Perfect#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/audiveris-extract/lib/audiveris.jar!/res/basic-classifier.zip
+2024-02-18 03:57:03,631 INFO [Perfect#1]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:57:03,739 INFO [Perfect#1]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:57:03,886 INFO [Perfect#1]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:57:04,070 INFO [Perfect#1]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:57:04,210 INFO [Perfect#1]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:57:07,239 INFO [Perfect#1]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:57:08,192 INFO [Perfect#1]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:57:14,681 INFO [Perfect#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.4] NOTEHEAD_BLACK[L:-0.6,R:-0.5]}
+2024-02-18 03:57:14,687 INFO [Perfect#1]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:57:16,806 INFO [Perfect#1]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:57:17,012 INFO [Perfect#1]        ReductionStep.java:93   | Stems free length median value: 65 pixels, 3.4 interlines
+2024-02-18 03:57:17,013 INFO [Perfect#1]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:57:17,014 INFO [Perfect#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:57:17,014 INFO [Perfect#1]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:57:17,302 WARN [Perfect#1]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:57:17,307 INFO [Perfect#1]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:57:17,327 INFO [Perfect#1]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:57:17,345 INFO [Perfect#1]                 Page.java:308  | 8 raw measures: [3 in system#1, 2 in system#2, 3 in system#3]
+2024-02-18 03:57:17,346 INFO [Perfect#1]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:57:17,386 INFO [Perfect#1]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:57:19,968 INFO [Perfect#1]         SlursBuilder.java:240  | Slurs: 80
+2024-02-18 03:57:20,177 INFO [Perfect#1]      SegmentsBuilder.java:155  | Segments: 30
+2024-02-18 03:57:20,185 INFO [Perfect#1]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:57:21,313 INFO [Perfect#1]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:57:21,366 INFO [Perfect#1]        SymbolsLinker.java:424  | No chord above PedalInter#23585{(0.123) PEDAL_MARK}
+2024-02-18 03:57:21,406 INFO [Perfect#1]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:57:21,471 INFO [Perfect#1]        MeasureRhythm.java:1202 | Measure{#4P1} Time inconsistency in {7/8=[HeadChordInter#7933{(0.934/0.934) stf:5 slot#4 off:7/8 dur:1/8}], 5/4=[HeadChordInter#7931{(0.934/0.934) stf:5 slot#4 off:5/4 dur:1/8}]}
+2024-02-18 03:57:21,474 INFO [Perfect#1]        MeasureRhythm.java:1202 | Measure{#4P1} Time inconsistency in {1=[HeadChordInter#7936{(0.945/0.945) stf:5 slot#5 off:1 dur:1/8}], 11/8=[HeadChordInter#7934{(0.956/0.956) stf:5 slot#5 off:11/8 dur:1/8}]}
+2024-02-18 03:57:21,485 INFO [Perfect#1]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2024-02-18 03:57:21,526 INFO [Perfect#1]        MeasureRhythm.java:1202 | Measure{#8P1} Time inconsistency in {7/8=[HeadChordInter#8045{(0.909/0.909) stf:9 slot#7 off:7/8 dur:1/8}], 5/4=[HeadChordInter#8047{(0.898/0.898) stf:9 slot#7 off:5/4 dur:1/8}]}
+2024-02-18 03:57:21,527 INFO [Perfect#1]        MeasureRhythm.java:1202 | Measure{#8P1} Time inconsistency in {1=[HeadChordInter#8048{(0.952/0.952) stf:9 slot#8 off:1 dur:1/8}], 11/8=[HeadChordInter#8050{(0.943/0.943) stf:9 slot#8 off:11/8 dur:1/8}]}
+2024-02-18 03:57:21,532 INFO [Perfect#1]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2024-02-18 03:57:21,533 INFO [Perfect#1]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:57:21,541 WARN [Perfect#1]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2024-02-18 03:57:21,543 WARN [Perfect#1]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5], please check time signatures
+2024-02-18 03:57:21,543 WARN [Perfect#1]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [6, 7, 8], please check time signatures
+2024-02-18 03:57:21,546 INFO [Perfect#1]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:57:21,679 INFO [Perfect#1]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:57:21,807 INFO [Perfect#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2024-02-18 03:57:23,043 INFO [Perfect#1]                Sheet.java:1529 | Stored /sheet#1/sheet#1.xml
+2024-02-18 03:57:23,048 INFO [Perfect#1]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:57:23,058 INFO [Perfect#1]            SheetStub.java:1605 | Disposed sheet#1
+2024-02-18 03:57:23,101 INFO [Perfect#1]                 Book.java:2035 | End of Stub#1 memory: 30,470,400
+2024-02-18 03:57:23,110 INFO [Perfect#2]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:57:23,324 INFO [Perfect#2]                 Book.java:1845 | Loaded image 2 2479x3506 from Perfect.pdf
+2024-02-18 03:57:23,330 INFO [Perfect#2]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:57:23,654 INFO [Perfect#2]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:57:23,685 INFO [Perfect#2]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:57:23,686 INFO [Perfect#2]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 446% of needed quorum
+2024-02-18 03:57:23,686 INFO [Perfect#2]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,4,5) beam(11)}
+2024-02-18 03:57:23,688 INFO [Perfect#2]       StepMonitoring.java:98   | GRID
+2024-02-18 03:57:24,239 INFO [Perfect#2]       LinesRetriever.java:1490 | Global slope: -0.00345
+2024-02-18 03:57:24,271 INFO [Perfect#2]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:57:24,750 INFO [Perfect#2]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:57:24,860 INFO [Perfect#2]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{234-260 F#7057 T#1 [BRACE]}
+2024-02-18 03:57:24,865 INFO [Perfect#2]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{229-261 F#7058 T#2 [BRACE]}
+2024-02-18 03:57:24,865 INFO [Perfect#2]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{235-263 F#7061 T#5 [BRACE]}
+2024-02-18 03:57:24,865 INFO [Perfect#2]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{231-264 F#7062 T#6 [BRACE]}
+2024-02-18 03:57:24,866 INFO [Perfect#2]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{237-264 F#7065 T#9 [BRACE]}
+2024-02-18 03:57:24,866 INFO [Perfect#2]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{231-264 F#7066 T#10 [BRACE]}
+2024-02-18 03:57:24,867 INFO [Perfect#2]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:57:24,867 INFO [Perfect#2]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:57:24,868 INFO [Perfect#2]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:57:24,868 INFO [Perfect#2]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:57:24,869 INFO [Perfect#2]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:57:24,869 INFO [Perfect#2]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:57:26,001 INFO [Perfect#2]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:57:26,006 INFO [Perfect#2]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:57:26,346 INFO [Perfect#2]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:57:26,392 INFO [Perfect#2]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:57:26,516 INFO [Perfect#2]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:57:26,663 INFO [Perfect#2]        StemSeedsStep.java:86   | stem(3 max:4)
+2024-02-18 03:57:26,690 INFO [Perfect#2]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:57:29,243 INFO [Perfect#2]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:57:29,772 INFO [Perfect#2]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:57:38,013 INFO [Perfect#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.2,R:-0.1]}
+2024-02-18 03:57:38,022 INFO [Perfect#2]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:57:39,365 INFO [Perfect#2]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:57:39,457 INFO [Perfect#2]        ReductionStep.java:93   | Stems free length median value: 66 pixels, 3.5 interlines
+2024-02-18 03:57:39,458 INFO [Perfect#2]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:57:39,458 INFO [Perfect#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:57:39,459 INFO [Perfect#2]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:57:39,633 WARN [Perfect#2]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:57:39,638 INFO [Perfect#2]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:57:39,643 INFO [Perfect#2]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:57:39,650 INFO [Perfect#2]                 Page.java:308  | 7 raw measures: [2 in system#1, 3 in system#2, 2 in system#3]
+2024-02-18 03:57:39,651 INFO [Perfect#2]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:57:39,674 INFO [Perfect#2]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:57:41,417 INFO [Perfect#2]         SlursBuilder.java:240  | Slurs: 111
+2024-02-18 03:57:41,637 INFO [Perfect#2]      SegmentsBuilder.java:155  | Segments: 33
+2024-02-18 03:57:41,661 INFO [Perfect#2]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:57:42,214 INFO [Perfect#2]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:57:42,247 INFO [Perfect#2]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#19368{(0.171) stf:1 OTTAVA BASSA}
+2024-02-18 03:57:42,301 INFO [Perfect#2]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:57:42,334 INFO [Perfect#2]        MeasureRhythm.java:985  | Measure{#2P1} No timeOffset for RestChordInter#19394{(0.673/0.673) stf:1 slot#4 dur:1/4}
+2024-02-18 03:57:42,358 INFO [Perfect#2]        MeasureRhythm.java:985  | Measure{#6P1} No timeOffset for RestChordInter#19744{(0.710/0.710) stf:9 slot#8 dur:1/4}
+2024-02-18 03:57:42,366 INFO [Perfect#2]        MeasureRhythm.java:1202 | Measure{#7P1} Time inconsistency in {5/4=[HeadChordInter#7428{(0.875/0.875) stf:9 slot#5 off:5/4 dur:1/8}], 13/8=[HeadChordInter#7429{(0.894/0.894) stf:9 slot#5 off:13/8 dur:1/8}]}
+2024-02-18 03:57:42,368 INFO [Perfect#2]        MeasureRhythm.java:1202 | Measure{#7P1} Time inconsistency in {11/8=[HeadChordInter#7431{(0.940/0.940) stf:9 slot#6 off:11/8 dur:1/8}], 7/4=[HeadChordInter#7430{(0.938/0.938) stf:9 slot#6 off:7/4 dur:1/8}]}
+2024-02-18 03:57:42,377 INFO [Perfect#2]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2024-02-18 03:57:42,378 INFO [Perfect#2]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:57:42,381 WARN [Perfect#2]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2], please check time signatures
+2024-02-18 03:57:42,382 WARN [Perfect#2]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [3, 4, 5], please check time signatures
+2024-02-18 03:57:42,385 WARN [Perfect#2]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [6, 7], please check time signatures
+2024-02-18 03:57:42,388 INFO [Perfect#2]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:57:42,507 INFO [Perfect#2]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:57:42,596 INFO [Perfect#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2024-02-18 03:57:43,327 INFO [Perfect#2]                Sheet.java:1529 | Stored /sheet#2/sheet#2.xml
+2024-02-18 03:57:43,333 INFO [Perfect#2]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:57:43,351 INFO [Perfect#2]            SheetStub.java:1605 | Disposed sheet#2
+2024-02-18 03:57:43,395 INFO [Perfect#2]                 Book.java:2035 | End of Stub#2 memory: 30,518,752
+2024-02-18 03:57:43,402 INFO [Perfect#3]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:57:43,600 INFO [Perfect#3]                 Book.java:1845 | Loaded image 3 2479x3506 from Perfect.pdf
+2024-02-18 03:57:43,607 INFO [Perfect#3]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:57:43,926 INFO [Perfect#3]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:57:43,938 INFO [Perfect#3]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:57:43,939 INFO [Perfect#3]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 300% of needed quorum
+2024-02-18 03:57:43,939 INFO [Perfect#3]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,4,5) beam(11)}
+2024-02-18 03:57:43,941 INFO [Perfect#3]       StepMonitoring.java:98   | GRID
+2024-02-18 03:57:44,446 INFO [Perfect#3]       LinesRetriever.java:1490 | Global slope: -0.00134
+2024-02-18 03:57:44,482 INFO [Perfect#3]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:57:44,885 INFO [Perfect#3]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:57:44,965 INFO [Perfect#3]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{231-258 F#7240 T#1 [BRACE]}
+2024-02-18 03:57:44,966 INFO [Perfect#3]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{226-257 F#7241 T#2 [BRACE]}
+2024-02-18 03:57:44,966 INFO [Perfect#3]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{231-257 F#7244 T#5 [BRACE]}
+2024-02-18 03:57:44,967 INFO [Perfect#3]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{226-256 F#7245 T#6 [BRACE]}
+2024-02-18 03:57:44,967 INFO [Perfect#3]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{230-256 F#7248 T#9 [BRACE]}
+2024-02-18 03:57:44,968 INFO [Perfect#3]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{223-256 F#7249 T#10 [BRACE]}
+2024-02-18 03:57:44,968 INFO [Perfect#3]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:57:44,968 INFO [Perfect#3]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:57:44,969 INFO [Perfect#3]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:57:44,969 INFO [Perfect#3]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:57:44,969 INFO [Perfect#3]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:57:44,969 INFO [Perfect#3]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:57:46,011 INFO [Perfect#3]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:57:46,018 INFO [Perfect#3]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:57:46,420 INFO [Perfect#3]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:57:46,462 INFO [Perfect#3]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:57:46,616 INFO [Perfect#3]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:57:46,707 INFO [Perfect#3]        StemSeedsStep.java:86   | stem(3 max:4)
+2024-02-18 03:57:46,740 INFO [Perfect#3]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:57:49,273 INFO [Perfect#3]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:57:49,761 INFO [Perfect#3]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:57:58,099 INFO [Perfect#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.2] NOTEHEAD_BLACK[L:0.1,R:-0.2]}
+2024-02-18 03:57:58,103 INFO [Perfect#3]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:57:59,707 INFO [Perfect#3]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:57:59,827 INFO [Perfect#3]        ReductionStep.java:93   | Stems free length median value: 65 pixels, 3.4 interlines
+2024-02-18 03:57:59,828 INFO [Perfect#3]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:57:59,828 INFO [Perfect#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:57:59,829 INFO [Perfect#3]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:57:59,944 WARN [Perfect#3]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:57:59,945 INFO [Perfect#3]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:57:59,948 INFO [Perfect#3]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:57:59,952 INFO [Perfect#3]                 Page.java:308  | 8 raw measures: [3 in system#1, 3 in system#2, 2 in system#3]
+2024-02-18 03:57:59,953 INFO [Perfect#3]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:57:59,963 INFO [Perfect#3]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:58:01,740 INFO [Perfect#3]         SlursBuilder.java:240  | Slurs: 103
+2024-02-18 03:58:01,808 INFO [Perfect#3]      SegmentsBuilder.java:155  | Segments: 18
+2024-02-18 03:58:01,810 INFO [Perfect#3]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:58:02,019 WARN [Perfect#3]       SymbolsBuilder.java:234  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:454)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:209)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:223)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:355)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:176)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-18 03:58:02,090 WARN [Perfect#3]       SymbolsBuilder.java:234  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:454)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:209)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:223)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:355)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:176)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-18 03:58:02,220 WARN [Perfect#3]       SymbolsBuilder.java:234  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:454)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:209)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:223)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:355)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:176)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-18 03:58:02,229 WARN [Perfect#3]       SymbolsBuilder.java:234  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:454)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:209)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:223)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:355)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:176)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-18 03:58:02,399 INFO [Perfect#3]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:58:02,459 INFO [Perfect#3]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:58:02,472 INFO [Perfect#3]        MeasureRhythm.java:1202 | Measure{#1P1} Time inconsistency in {7/8=[HeadChordInter#8925{(0.907/0.907) stf:1 slot#5 off:7/8 dur:1/8}], 5/4=[HeadChordInter#8924{(0.898/0.898) stf:1 slot#5 off:5/4 dur:1/8}]}
+2024-02-18 03:58:02,477 INFO [Perfect#3]        MeasureRhythm.java:1202 | Measure{#1P1} Time inconsistency in {1=[HeadChordInter#8927{(0.934/0.934) stf:1 slot#6 off:1 dur:1/8}], 11/8=[HeadChordInter#8926{(0.944/0.944) stf:1 slot#6 off:11/8 dur:1/8}]}
+2024-02-18 03:58:02,481 INFO [Perfect#3]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2024-02-18 03:58:02,547 INFO [Perfect#3]        MeasureRhythm.java:1202 | Measure{#8P1} Time inconsistency in {1/2=[HeadChordInter#9183{(0.956/0.956) stf:9 slot#6 off:1/2 dur:1/8}], 5/8=[HeadChordInter#9185{(0.944/0.944) stf:9 slot#6 off:5/8 dur:1/8}]}
+2024-02-18 03:58:02,551 INFO [Perfect#3]        MeasureRhythm.java:1202 | Measure{#8P2} Time inconsistency in {1/2=[HeadChordInter#9209{(0.897/0.897) stf:10 slot#6 off:1/2 dur:1/8}], 5/8=[HeadChordInter#9208{(0.919/0.919) stf:10 slot#6 off:5/8 dur:1/8}]}
+2024-02-18 03:58:02,553 INFO [Perfect#3]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2024-02-18 03:58:02,554 INFO [Perfect#3]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:58:02,559 WARN [Perfect#3]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2024-02-18 03:58:02,560 WARN [Perfect#3]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5, 6], please check time signatures
+2024-02-18 03:58:02,561 WARN [Perfect#3]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [7, 8], please check time signatures
+2024-02-18 03:58:02,562 INFO [Perfect#3]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:58:02,698 INFO [Perfect#3]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:58:02,762 INFO [Perfect#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2024-02-18 03:58:03,486 INFO [Perfect#3]                Sheet.java:1529 | Stored /sheet#3/sheet#3.xml
+2024-02-18 03:58:03,493 INFO [Perfect#3]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:58:03,524 INFO [Perfect#3]            SheetStub.java:1605 | Disposed sheet#3
+2024-02-18 03:58:03,570 INFO [Perfect#3]                 Book.java:2035 | End of Stub#3 memory: 30,539,768
+2024-02-18 03:58:03,577 INFO [Perfect#4]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:58:03,766 INFO [Perfect#4]                 Book.java:1845 | Loaded image 4 2479x3506 from Perfect.pdf
+2024-02-18 03:58:03,774 INFO [Perfect#4]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:58:04,090 INFO [Perfect#4]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:58:04,102 INFO [Perfect#4]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:58:04,104 INFO [Perfect#4]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 441% of needed quorum
+2024-02-18 03:58:04,105 INFO [Perfect#4]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,5) beam(11)}
+2024-02-18 03:58:04,107 INFO [Perfect#4]       StepMonitoring.java:98   | GRID
+2024-02-18 03:58:04,590 INFO [Perfect#4]       LinesRetriever.java:1490 | Global slope: -0.00088
+2024-02-18 03:58:04,619 INFO [Perfect#4]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:58:05,067 INFO [Perfect#4]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:58:05,135 INFO [Perfect#4]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{252-280 F#7330 T#1 [BRACE]}
+2024-02-18 03:58:05,136 INFO [Perfect#4]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{247-280 F#7331 T#2 [BRACE]}
+2024-02-18 03:58:05,137 INFO [Perfect#4]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{251-278 F#7334 T#5 [BRACE]}
+2024-02-18 03:58:05,137 INFO [Perfect#4]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{245-276 F#7335 T#6 [BRACE]}
+2024-02-18 03:58:05,137 INFO [Perfect#4]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{249-276 F#7338 T#9 [BRACE]}
+2024-02-18 03:58:05,137 INFO [Perfect#4]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{244-275 F#7339 T#10 [BRACE]}
+2024-02-18 03:58:05,138 INFO [Perfect#4]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:58:05,138 INFO [Perfect#4]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:58:05,138 INFO [Perfect#4]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:58:05,139 INFO [Perfect#4]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:58:05,139 INFO [Perfect#4]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:58:05,139 INFO [Perfect#4]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:58:06,245 INFO [Perfect#4]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:58:06,254 INFO [Perfect#4]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:58:06,676 INFO [Perfect#4]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:58:06,720 INFO [Perfect#4]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:58:06,846 INFO [Perfect#4]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:58:06,928 INFO [Perfect#4]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:58:06,951 INFO [Perfect#4]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:58:09,523 INFO [Perfect#4]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:58:10,119 INFO [Perfect#4]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:58:18,472 INFO [Perfect#4]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.4,R:-0.7]}
+2024-02-18 03:58:18,474 INFO [Perfect#4]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:58:20,508 INFO [Perfect#4]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:58:20,654 INFO [Perfect#4]        ReductionStep.java:93   | Stems free length median value: 66 pixels, 3.5 interlines
+2024-02-18 03:58:20,656 INFO [Perfect#4]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:58:20,656 INFO [Perfect#4]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:58:20,657 INFO [Perfect#4]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:58:20,814 WARN [Perfect#4]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:58:20,819 INFO [Perfect#4]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:58:20,825 INFO [Perfect#4]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:58:20,831 INFO [Perfect#4]                 Page.java:308  | 8 raw measures: [3 in system#1, 3 in system#2, 2 in system#3]
+2024-02-18 03:58:20,831 INFO [Perfect#4]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:58:20,843 INFO [Perfect#4]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:58:22,479 INFO [Perfect#4]         SlursBuilder.java:240  | Slurs: 116
+2024-02-18 03:58:22,626 INFO [Perfect#4]      SegmentsBuilder.java:155  | Segments: 24
+2024-02-18 03:58:22,638 INFO [Perfect#4]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:58:23,256 INFO [Perfect#4]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:58:23,285 INFO [Perfect#4]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#24084{(0.170) stf:8 OTTAVA BASSA}
+2024-02-18 03:58:23,305 INFO [Perfect#4]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#24368{(0.170) stf:9 OTTAVA ALTA}
+2024-02-18 03:58:23,319 INFO [Perfect#4]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:58:23,338 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#2P1} Time inconsistency in {7/8=[HeadChordInter#9626{(0.945/0.945) stf:1 slot#5 off:7/8 dur:1/8}], 5/4=[HeadChordInter#9624{(0.945/0.945) stf:1 slot#5 off:5/4 dur:1/8}]}
+2024-02-18 03:58:23,339 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#2P1} Time inconsistency in {1=[HeadChordInter#9629{(0.919/0.919) stf:1 slot#6 off:1 dur:1/8}], 11/8=[HeadChordInter#9627{(0.924/0.924) stf:1 slot#6 off:11/8 dur:1/8}]}
+2024-02-18 03:58:23,347 INFO [Perfect#4]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2024-02-18 03:58:23,367 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#6P1} Time inconsistency in {7/8=[HeadChordInter#9761{(0.907/0.907) stf:5 slot#5 off:7/8 dur:1/8}], 5/4=[HeadChordInter#9759{(0.907/0.907) stf:5 slot#5 off:5/4 dur:1/8}]}
+2024-02-18 03:58:23,369 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#6P1} Time inconsistency in {1=[HeadChordInter#9764{(0.945/0.945) stf:5 slot#6 off:1 dur:1/8}], 11/8=[HeadChordInter#9762{(0.951/0.951) stf:5 slot#6 off:11/8 dur:1/8}]}
+2024-02-18 03:58:23,370 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#6P2} Time inconsistency in {7/8=[HeadChordInter#9798{(0.953/0.953) stf:6 slot#5 off:7/8 dur:1/8}], 5/4=[HeadChordInter#9800{(0.935/0.935) stf:6 slot#5 off:5/4 dur:1/8}]}
+2024-02-18 03:58:23,371 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#6P2} Time inconsistency in {1=[HeadChordInter#9801{(0.900/0.900) stf:6 slot#6 off:1 dur:1/8}], 11/8=[HeadChordInter#9803{(0.890/0.890) stf:6 slot#6 off:11/8 dur:1/8}]}
+2024-02-18 03:58:23,374 INFO [Perfect#4]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2024-02-18 03:58:23,375 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#7P1} Time inconsistency in {7/8=[HeadChordInter#9867{(0.901/0.901) stf:9 slot#7 off:7/8 dur:1/8}], 5/4=[HeadChordInter#9869{(0.901/0.901) stf:9 slot#7 off:5/4 dur:1/8}]}
+2024-02-18 03:58:23,376 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#7P1} Time inconsistency in {1=[HeadChordInter#9870{(0.949/0.949) stf:9 slot#8 off:1 dur:1/8}], 11/8=[HeadChordInter#9872{(0.943/0.943) stf:9 slot#8 off:11/8 dur:1/8}]}
+2024-02-18 03:58:23,379 INFO [Perfect#4]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2024-02-18 03:58:23,382 INFO [Perfect#4]        MeasureRhythm.java:1202 | Measure{#8P1} Time inconsistency in {9/8=[HeadChordInter#9889{(0.944/0.944) stf:9 slot#9 off:9/8 dur:1/8}], 3/2=[HeadChordInter#9891{(0.937/0.937) stf:9 slot#9 off:3/2 dur:1/8}]}
+2024-02-18 03:58:23,385 INFO [Perfect#4]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2024-02-18 03:58:23,386 INFO [Perfect#4]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:58:23,388 WARN [Perfect#4]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2024-02-18 03:58:23,388 WARN [Perfect#4]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5, 6], please check time signatures
+2024-02-18 03:58:23,389 WARN [Perfect#4]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [7, 8], please check time signatures
+2024-02-18 03:58:23,390 INFO [Perfect#4]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:58:23,520 INFO [Perfect#4]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:58:23,577 INFO [Perfect#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2024-02-18 03:58:24,406 INFO [Perfect#4]                Sheet.java:1529 | Stored /sheet#4/sheet#4.xml
+2024-02-18 03:58:24,411 INFO [Perfect#4]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:58:24,449 INFO [Perfect#4]            SheetStub.java:1605 | Disposed sheet#4
+2024-02-18 03:58:24,498 INFO [Perfect#4]                 Book.java:2035 | End of Stub#4 memory: 30,173,432
+2024-02-18 03:58:24,505 INFO [Perfect#5]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:58:24,684 INFO [Perfect#5]                 Book.java:1845 | Loaded image 5 2479x3506 from Perfect.pdf
+2024-02-18 03:58:24,691 INFO [Perfect#5]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:58:25,003 INFO [Perfect#5]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:58:25,016 INFO [Perfect#5]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:58:25,017 INFO [Perfect#5]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.38 of [6..19] range at 364% of needed quorum
+2024-02-18 03:58:25,017 INFO [Perfect#5]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,6) beam(11)}
+2024-02-18 03:58:25,019 INFO [Perfect#5]       StepMonitoring.java:98   | GRID
+2024-02-18 03:58:25,564 INFO [Perfect#5]       LinesRetriever.java:1490 | Global slope: -0.00303
+2024-02-18 03:58:25,598 INFO [Perfect#5]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:58:26,208 INFO [Perfect#5]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11] #4[12]
+2024-02-18 03:58:26,217 WARN [Perfect#5]        BarsRetriever.java:1285 | No startColumn found for multi-staff System#3
+2024-02-18 03:58:26,276 INFO [Perfect#5]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{234-261 F#7913 T#1 [BRACE]}
+2024-02-18 03:58:26,277 INFO [Perfect#5]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{229-260 F#7914 T#2 [BRACE]}
+2024-02-18 03:58:26,277 INFO [Perfect#5]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{233-260 F#7917 T#5 [BRACE]}
+2024-02-18 03:58:26,277 INFO [Perfect#5]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{228-258 F#7918 T#6 [BRACE]}
+2024-02-18 03:58:26,278 INFO [Perfect#5]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:58:26,278 INFO [Perfect#5]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:58:26,278 INFO [Perfect#5]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:58:26,278 INFO [Perfect#5]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:58:27,889 INFO [Perfect#5]        SystemManager.java:736  | 3 parts along 4 systems
+2024-02-18 03:58:27,897 INFO [Perfect#5]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:58:28,273 INFO [Perfect#5]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:58:28,313 INFO [Perfect#5]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:58:28,440 INFO [Perfect#5]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:58:28,522 INFO [Perfect#5]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:58:28,555 INFO [Perfect#5]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:58:31,172 INFO [Perfect#5]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:58:32,042 INFO [Perfect#5]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:58:39,591 INFO [Perfect#5]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.0,R:-0.7] NOTEHEAD_BLACK[L:-0.6,R:-0.7]}
+2024-02-18 03:58:39,594 INFO [Perfect#5]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:58:42,383 INFO [Perfect#5]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:58:42,752 INFO [Perfect#5]        ReductionStep.java:93   | Stems free length median value: 65 pixels, 3.4 interlines
+2024-02-18 03:58:42,753 INFO [Perfect#5]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:58:42,754 INFO [Perfect#5]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:58:42,754 INFO [Perfect#5]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:58:42,842 WARN [Perfect#5]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:58:42,842 INFO [Perfect#5]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:58:42,845 INFO [Perfect#5]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:58:42,849 WARN [Perfect#5]            SheetStub.java:1374 | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:570)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1358)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2023)
+	at org.audiveris.omr.sheet.Book.transcribe(Book.java:2577)
+	at org.audiveris.omr.sheet.Book.export(Book.java:634)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:186)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.audiveris.omr.sheet.rhythm.MeasuresBuilder.buildPartMeasures(MeasuresBuilder.java:248)
+	at org.audiveris.omr.sheet.rhythm.MeasuresBuilder.buildMeasures(MeasuresBuilder.java:181)
+	at org.audiveris.omr.sheet.rhythm.MeasuresStep.doSystem(MeasuresStep.java:141)
+	at org.audiveris.omr.sheet.rhythm.MeasuresStep.doSystem(MeasuresStep.java:56)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	... 7 common frames omitted
+2024-02-18 03:58:42,851 INFO [Perfect#5]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:58:42,993 INFO [Perfect#5]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:58:43,049 INFO [Perfect#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2024-02-18 03:58:43,476 INFO [Perfect#5]                Sheet.java:1529 | Stored /sheet#5/sheet#5.xml
+2024-02-18 03:58:43,477 INFO [Perfect#5]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:58:43,523 INFO [Perfect#5]            SheetStub.java:1605 | Disposed sheet#5
+2024-02-18 03:58:43,588 INFO [Perfect#5]                 Book.java:2035 | End of Stub#5 memory: 30,727,200
+2024-02-18 03:58:43,594 INFO [Perfect#6]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:58:43,741 INFO [Perfect#6]                 Book.java:1845 | Loaded image 6 2479x3506 from Perfect.pdf
+2024-02-18 03:58:43,742 INFO [Perfect#6]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:58:44,043 INFO [Perfect#6]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:58:44,055 INFO [Perfect#6]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:58:44,056 INFO [Perfect#6]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 346% of needed quorum
+2024-02-18 03:58:44,056 INFO [Perfect#6]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,5) beam(11)}
+2024-02-18 03:58:44,057 INFO [Perfect#6]       StepMonitoring.java:98   | GRID
+2024-02-18 03:58:44,602 INFO [Perfect#6]       LinesRetriever.java:1490 | Global slope: 0.01620
+2024-02-18 03:58:44,645 INFO [Perfect#6]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:58:45,166 INFO [Perfect#6]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:58:45,236 INFO [Perfect#6]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{283-308 F#8061 T#1 [BRACE]}
+2024-02-18 03:58:45,237 INFO [Perfect#6]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{271-304 F#8062 T#2 [BRACE]}
+2024-02-18 03:58:45,237 INFO [Perfect#6]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{264-288 F#8065 T#5 [BRACE]}
+2024-02-18 03:58:45,237 INFO [Perfect#6]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{252-282 F#8066 T#6 [BRACE]}
+2024-02-18 03:58:45,238 INFO [Perfect#6]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{243-269 F#8069 T#9 [BRACE]}
+2024-02-18 03:58:45,238 INFO [Perfect#6]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{230-264 F#8070 T#10 [BRACE]}
+2024-02-18 03:58:45,238 INFO [Perfect#6]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:58:45,239 INFO [Perfect#6]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:58:45,239 INFO [Perfect#6]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:58:45,239 INFO [Perfect#6]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:58:45,240 INFO [Perfect#6]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:58:45,240 INFO [Perfect#6]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:58:46,355 INFO [Perfect#6]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:58:46,362 INFO [Perfect#6]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:58:46,687 INFO [Perfect#6]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:58:46,749 INFO [Perfect#6]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:58:46,881 INFO [Perfect#6]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:58:46,945 INFO [Perfect#6]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:58:46,976 INFO [Perfect#6]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:58:49,510 INFO [Perfect#6]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:58:50,040 INFO [Perfect#6]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:58:57,900 INFO [Perfect#6]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.3,R:-0.5]}
+2024-02-18 03:58:57,910 INFO [Perfect#6]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:59:00,603 INFO [Perfect#6]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:59:00,820 INFO [Perfect#6]        ReductionStep.java:93   | Stems free length median value: 65 pixels, 3.4 interlines
+2024-02-18 03:59:00,827 INFO [Perfect#6]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:59:00,828 INFO [Perfect#6]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:59:00,828 INFO [Perfect#6]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:59:00,923 WARN [Perfect#6]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:59:00,923 INFO [Perfect#6]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:59:00,929 INFO [Perfect#6]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:59:00,933 INFO [Perfect#6]                 Page.java:308  | 9 raw measures: [3 in system#1, 3 in system#2, 3 in system#3]
+2024-02-18 03:59:00,934 INFO [Perfect#6]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:59:00,944 INFO [Perfect#6]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:59:02,953 INFO [Perfect#6]         SlursBuilder.java:240  | Slurs: 168
+2024-02-18 03:59:03,010 INFO [Perfect#6]      SegmentsBuilder.java:155  | Segments: 19
+2024-02-18 03:59:03,012 INFO [Perfect#6]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:59:03,419 WARN [Perfect#6]       SymbolsBuilder.java:234  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:454)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:209)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:223)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:355)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:176)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-18 03:59:03,642 INFO [Perfect#6]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:59:03,649 INFO [Perfect#6]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#26495{(0.718) stf:1 OTTAVA ALTA}
+2024-02-18 03:59:03,649 INFO [Perfect#6]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#26862{(0.132) stf:1 OTTAVA BASSA}
+2024-02-18 03:59:03,709 INFO [Perfect#6]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:59:03,710 INFO [Perfect#6]           PageRhythm.java:207  | {Page#6.1} Time value not yet available in sheet#5
+2024-02-18 03:59:03,734 INFO [Perfect#6]        MeasureRhythm.java:1202 | Measure{#4P1} Time inconsistency in {5/4=[HeadChordInter#11672{(0.895/0.895) stf:5 slot#6 off:5/4 dur:1/8}], 11/8=[HeadChordInter#11673{(0.900/0.900) stf:5 slot#6 off:11/8 dur:1/8}]}
+2024-02-18 03:59:03,735 INFO [Perfect#6]        MeasureRhythm.java:1202 | Measure{#4P1} Time inconsistency in {11/8=[HeadChordInter#11674{(0.924/0.924) stf:5 slot#7 off:11/8 dur:1/8}], 3/2=[HeadChordInter#11675{(0.928/0.928) stf:5 slot#7 off:3/2 dur:1/8}]}
+2024-02-18 03:59:03,738 INFO [Perfect#6]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2024-02-18 03:59:03,760 INFO [Perfect#6]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:59:03,765 WARN [Perfect#6]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2024-02-18 03:59:03,767 WARN [Perfect#6]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5, 6], please check time signatures
+2024-02-18 03:59:03,767 WARN [Perfect#6]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [7, 8, 9], please check time signatures
+2024-02-18 03:59:03,769 INFO [Perfect#6]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:59:03,932 INFO [Perfect#6]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:59:03,988 INFO [Perfect#6]           DataHolder.java:348  | Stored /sheet#6/BINARY.png
+2024-02-18 03:59:04,859 INFO [Perfect#6]                Sheet.java:1529 | Stored /sheet#6/sheet#6.xml
+2024-02-18 03:59:04,865 INFO [Perfect#6]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:59:04,923 INFO [Perfect#6]            SheetStub.java:1605 | Disposed sheet#6
+2024-02-18 03:59:04,978 INFO [Perfect#6]                 Book.java:2035 | End of Stub#6 memory: 30,335,200
+2024-02-18 03:59:04,986 INFO [Perfect#7]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:59:05,189 INFO [Perfect#7]                 Book.java:1845 | Loaded image 7 2479x3506 from Perfect.pdf
+2024-02-18 03:59:05,197 INFO [Perfect#7]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:59:05,488 INFO [Perfect#7]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:59:05,500 INFO [Perfect#7]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:59:05,501 INFO [Perfect#7]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 340% of needed quorum
+2024-02-18 03:59:05,501 INFO [Perfect#7]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,5) beam(11)}
+2024-02-18 03:59:05,503 INFO [Perfect#7]       StepMonitoring.java:98   | GRID
+2024-02-18 03:59:05,928 INFO [Perfect#7]       LinesRetriever.java:1490 | Global slope: -0.00280
+2024-02-18 03:59:05,948 INFO [Perfect#7]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:59:06,294 INFO [Perfect#7]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:59:06,348 INFO [Perfect#7]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{224-250 F#6734 T#1 [BRACE]}
+2024-02-18 03:59:06,350 INFO [Perfect#7]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{219-249 F#6735 T#2 [BRACE]}
+2024-02-18 03:59:06,350 INFO [Perfect#7]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{223-253 F#6738 T#5 [BRACE]}
+2024-02-18 03:59:06,350 INFO [Perfect#7]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{219-250 F#6739 T#6 [BRACE]}
+2024-02-18 03:59:06,351 INFO [Perfect#7]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{226-251 F#6742 T#9 [BRACE]}
+2024-02-18 03:59:06,351 INFO [Perfect#7]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{220-252 F#6743 T#10 [BRACE]}
+2024-02-18 03:59:06,351 INFO [Perfect#7]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:59:06,351 INFO [Perfect#7]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:59:06,352 INFO [Perfect#7]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:59:06,352 INFO [Perfect#7]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:59:06,352 INFO [Perfect#7]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:59:06,352 INFO [Perfect#7]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:59:07,288 INFO [Perfect#7]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:59:07,295 INFO [Perfect#7]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:59:07,694 INFO [Perfect#7]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:59:07,739 INFO [Perfect#7]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:59:07,899 INFO [Perfect#7]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:59:07,968 INFO [Perfect#7]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:59:07,995 INFO [Perfect#7]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:59:10,430 INFO [Perfect#7]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:59:10,820 INFO [Perfect#7]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:59:18,267 INFO [Perfect#7]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.4,R:-0.6]}
+2024-02-18 03:59:18,269 INFO [Perfect#7]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:59:19,720 INFO [Perfect#7]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:59:19,812 INFO [Perfect#7]        ReductionStep.java:93   | Stems free length median value: 65 pixels, 3.4 interlines
+2024-02-18 03:59:19,813 INFO [Perfect#7]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:59:19,813 INFO [Perfect#7]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:59:19,814 INFO [Perfect#7]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:59:19,901 WARN [Perfect#7]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:59:19,902 INFO [Perfect#7]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:59:19,905 INFO [Perfect#7]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:59:19,914 INFO [Perfect#7]                 Page.java:308  | 7 raw measures: [2 in system#1, 2 in system#2, 3 in system#3]
+2024-02-18 03:59:19,915 INFO [Perfect#7]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:59:19,924 INFO [Perfect#7]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:59:21,102 INFO [Perfect#7]         SlursBuilder.java:240  | Slurs: 93
+2024-02-18 03:59:21,124 INFO [Perfect#7]      SegmentsBuilder.java:155  | Segments: 6
+2024-02-18 03:59:21,126 INFO [Perfect#7]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:59:21,541 INFO [Perfect#7]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:59:21,543 INFO [Perfect#7]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#21236{(0.164) stf:1 OTTAVA BASSA}
+2024-02-18 03:59:21,585 INFO [Perfect#7]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:59:21,585 INFO [Perfect#7]           PageRhythm.java:207  | {Page#7.1} Time value not yet available in sheet#5
+2024-02-18 03:59:21,609 INFO [Perfect#7]        MeasureRhythm.java:1202 | Measure{#3P2} Time inconsistency in {1/2=[HeadChordInter#8566{(0.900/0.900) stf:6 slot#6 off:1/2 dur:1/8}], 5/8=[HeadChordInter#8565{(0.914/0.914) stf:6 slot#6 off:5/8 dur:1/8}]}
+2024-02-18 03:59:21,615 INFO [Perfect#7]          StackRhythm.java:224  | S2 MeasureStack#3 no correct rhythm
+2024-02-18 03:59:21,639 INFO [Perfect#7]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:59:21,644 WARN [Perfect#7]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2], please check time signatures
+2024-02-18 03:59:21,645 WARN [Perfect#7]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [3, 4], please check time signatures
+2024-02-18 03:59:21,646 WARN [Perfect#7]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [5, 6, 7], please check time signatures
+2024-02-18 03:59:21,646 INFO [Perfect#7]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:59:21,799 INFO [Perfect#7]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:59:21,853 INFO [Perfect#7]           DataHolder.java:348  | Stored /sheet#7/BINARY.png
+2024-02-18 03:59:22,560 INFO [Perfect#7]                Sheet.java:1529 | Stored /sheet#7/sheet#7.xml
+2024-02-18 03:59:22,565 INFO [Perfect#7]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:59:22,630 INFO [Perfect#7]            SheetStub.java:1605 | Disposed sheet#7
+2024-02-18 03:59:22,686 INFO [Perfect#7]                 Book.java:2035 | End of Stub#7 memory: 30,318,048
+2024-02-18 03:59:22,694 INFO [Perfect#8]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:59:22,872 INFO [Perfect#8]                 Book.java:1845 | Loaded image 8 2479x3506 from Perfect.pdf
+2024-02-18 03:59:22,879 INFO [Perfect#8]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:59:23,170 INFO [Perfect#8]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:59:23,182 INFO [Perfect#8]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:59:23,183 INFO [Perfect#8]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 246% of needed quorum
+2024-02-18 03:59:23,183 INFO [Perfect#8]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,5) beam(11)}
+2024-02-18 03:59:23,185 INFO [Perfect#8]       StepMonitoring.java:98   | GRID
+2024-02-18 03:59:23,627 INFO [Perfect#8]       LinesRetriever.java:1490 | Global slope: -0.00537
+2024-02-18 03:59:23,647 INFO [Perfect#8]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:59:24,023 INFO [Perfect#8]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:59:24,084 INFO [Perfect#8]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{242-270 F#6976 T#1 [BRACE]}
+2024-02-18 03:59:24,085 INFO [Perfect#8]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{237-267 F#6977 T#2 [BRACE]}
+2024-02-18 03:59:24,085 INFO [Perfect#8]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{244-271 F#6980 T#5 [BRACE]}
+2024-02-18 03:59:24,086 INFO [Perfect#8]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{239-272 F#6981 T#6 [BRACE]}
+2024-02-18 03:59:24,086 INFO [Perfect#8]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{248-276 F#6984 T#9 [BRACE]}
+2024-02-18 03:59:24,086 INFO [Perfect#8]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{244-277 F#6985 T#10 [BRACE]}
+2024-02-18 03:59:24,086 INFO [Perfect#8]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:59:24,086 INFO [Perfect#8]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:59:24,087 INFO [Perfect#8]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:59:24,087 INFO [Perfect#8]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:59:24,087 INFO [Perfect#8]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:59:24,087 INFO [Perfect#8]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:59:25,022 INFO [Perfect#8]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:59:25,030 INFO [Perfect#8]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:59:25,403 INFO [Perfect#8]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:59:25,442 INFO [Perfect#8]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:59:25,574 INFO [Perfect#8]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:59:25,674 INFO [Perfect#8]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:59:25,704 INFO [Perfect#8]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:59:28,155 INFO [Perfect#8]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:59:28,524 INFO [Perfect#8]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:59:35,867 INFO [Perfect#8]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2024-02-18 03:59:35,870 INFO [Perfect#8]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:59:37,490 INFO [Perfect#8]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:59:37,587 INFO [Perfect#8]        ReductionStep.java:93   | Stems free length median value: 65 pixels, 3.4 interlines
+2024-02-18 03:59:37,587 INFO [Perfect#8]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:59:37,588 INFO [Perfect#8]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:59:37,588 INFO [Perfect#8]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:59:37,677 WARN [Perfect#8]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:59:37,678 INFO [Perfect#8]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:59:37,680 INFO [Perfect#8]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:59:37,684 INFO [Perfect#8]                 Page.java:308  | 8 raw measures: [3 in system#1, 3 in system#2, 2 in system#3]
+2024-02-18 03:59:37,684 INFO [Perfect#8]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:59:37,690 INFO [Perfect#8]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:59:39,175 INFO [Perfect#8]         SlursBuilder.java:240  | Slurs: 103
+2024-02-18 03:59:39,203 INFO [Perfect#8]      SegmentsBuilder.java:155  | Segments: 12
+2024-02-18 03:59:39,204 INFO [Perfect#8]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:59:39,321 WARN [Perfect#8]       SymbolsBuilder.java:234  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:454)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:209)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:223)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:355)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:176)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:555)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-18 03:59:39,649 INFO [Perfect#8]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:59:39,662 INFO [Perfect#8]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#22802{(0.272) stf:5 OTTAVA BASSA}
+2024-02-18 03:59:39,686 INFO [Perfect#8]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:59:39,686 INFO [Perfect#8]           PageRhythm.java:207  | {Page#8.1} Time value not yet available in sheet#5
+2024-02-18 03:59:39,725 INFO [Perfect#8]        MeasureRhythm.java:1202 | Measure{#7P3} Time inconsistency in {1/8=[HeadChordInter#9515{(0.921/0.921) stf:12 slot#3 off:1/8 dur:1/8}], 1/4=[HeadChordInter#9497{(0.954/0.954) stf:11 slot#3 off:1/4 dur:1/8}]}
+2024-02-18 03:59:39,727 INFO [Perfect#8]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2024-02-18 03:59:39,730 INFO [Perfect#8]        MeasureRhythm.java:1202 | Measure{#8P1} Time inconsistency in {1/2=[HeadChordInter#9456{(0.951/0.951) stf:9 slot#6 off:1/2 dur:1/8}], 5/8=[HeadChordInter#9458{(0.941/0.941) stf:9 slot#6 off:5/8 dur:1/8}]}
+2024-02-18 03:59:39,734 INFO [Perfect#8]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2024-02-18 03:59:39,735 INFO [Perfect#8]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:59:39,737 WARN [Perfect#8]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2024-02-18 03:59:39,738 WARN [Perfect#8]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5, 6], please check time signatures
+2024-02-18 03:59:39,740 WARN [Perfect#8]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [7, 8], please check time signatures
+2024-02-18 03:59:39,740 INFO [Perfect#8]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:59:39,883 INFO [Perfect#8]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:59:39,938 INFO [Perfect#8]           DataHolder.java:348  | Stored /sheet#8/BINARY.png
+2024-02-18 03:59:40,715 INFO [Perfect#8]                Sheet.java:1529 | Stored /sheet#8/sheet#8.xml
+2024-02-18 03:59:40,720 INFO [Perfect#8]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:59:40,826 INFO [Perfect#8]            SheetStub.java:1605 | Disposed sheet#8
+2024-02-18 03:59:40,885 INFO [Perfect#8]                 Book.java:2035 | End of Stub#8 memory: 30,687,864
+2024-02-18 03:59:40,892 INFO [Perfect#9]       StepMonitoring.java:98   | LOAD
+2024-02-18 03:59:41,095 INFO [Perfect#9]                 Book.java:1845 | Loaded image 9 2479x3506 from Perfect.pdf
+2024-02-18 03:59:41,102 INFO [Perfect#9]       StepMonitoring.java:98   | BINARY
+2024-02-18 03:59:41,398 INFO [Perfect#9]       StepMonitoring.java:98   | SCALE
+2024-02-18 03:59:41,410 INFO [Perfect#9]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2024-02-18 03:59:41,410 INFO [Perfect#9]         ScaleBuilder.java:257  | Beam measured height: 11 -- 0.43 of [5..19] range at 228% of needed quorum
+2024-02-18 03:59:41,411 INFO [Perfect#9]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(3,3,5) beam(11)}
+2024-02-18 03:59:41,412 INFO [Perfect#9]       StepMonitoring.java:98   | GRID
+2024-02-18 03:59:41,916 INFO [Perfect#9]       LinesRetriever.java:1490 | Global slope: -0.00324
+2024-02-18 03:59:41,935 INFO [Perfect#9]    ClustersRetriever.java:334  | Retrieved line clusters: 12 of sizes [5] with interline(17,19,20)
+2024-02-18 03:59:42,327 INFO [Perfect#9]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4] #2[5, 6, 7, 8] #3[9, 10, 11, 12]
+2024-02-18 03:59:42,430 INFO [Perfect#9]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{227-256 F#7217 T#1 [BRACE]}
+2024-02-18 03:59:42,436 INFO [Perfect#9]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{222-255 F#7218 T#2 [BRACE]}
+2024-02-18 03:59:42,437 INFO [Perfect#9]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{228-254 F#7221 T#5 [BRACE]}
+2024-02-18 03:59:42,437 INFO [Perfect#9]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{223-256 F#7222 T#6 [BRACE]}
+2024-02-18 03:59:42,437 INFO [Perfect#9]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{229-256 F#7225 T#9 [BRACE]}
+2024-02-18 03:59:42,437 INFO [Perfect#9]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{223-256 F#7226 T#10 [BRACE]}
+2024-02-18 03:59:42,438 INFO [Perfect#9]        BarsRetriever.java:1296 | System#1
+2024-02-18 03:59:42,438 INFO [Perfect#9]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:1-2}
+2024-02-18 03:59:42,439 INFO [Perfect#9]        BarsRetriever.java:1296 | System#2
+2024-02-18 03:59:42,439 INFO [Perfect#9]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:5-6}
+2024-02-18 03:59:42,439 INFO [Perfect#9]        BarsRetriever.java:1296 | System#3
+2024-02-18 03:59:42,440 INFO [Perfect#9]        BarsRetriever.java:1299 |    PartGroup{bracket number:1 barline:false staves:9-10}
+2024-02-18 03:59:43,450 INFO [Perfect#9]        SystemManager.java:736  | 3 parts along 3 systems
+2024-02-18 03:59:43,458 INFO [Perfect#9]       StepMonitoring.java:98   | HEADERS
+2024-02-18 03:59:43,878 INFO [Perfect#9]       StepMonitoring.java:98   | STEM_SEEDS
+2024-02-18 03:59:43,918 INFO [Perfect#9]            ImageUtil.java:204  | Discarding alpha band ...
+2024-02-18 03:59:44,043 INFO [Perfect#9]            ImageUtil.java:122  | Converting max RGB to gray
+2024-02-18 03:59:44,106 INFO [Perfect#9]        StemSeedsStep.java:86   | stem(1 max:2)
+2024-02-18 03:59:44,126 INFO [Perfect#9]       StepMonitoring.java:98   | BEAMS
+2024-02-18 03:59:46,539 INFO [Perfect#9]       StepMonitoring.java:98   | LEDGERS
+2024-02-18 03:59:46,935 INFO [Perfect#9]       StepMonitoring.java:98   | HEADS
+2024-02-18 03:59:54,424 INFO [Perfect#9]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.6]}
+2024-02-18 03:59:54,427 INFO [Perfect#9]       StepMonitoring.java:98   | STEMS
+2024-02-18 03:59:56,084 INFO [Perfect#9]       StepMonitoring.java:98   | REDUCTION
+2024-02-18 03:59:56,230 INFO [Perfect#9]        ReductionStep.java:93   | Stems free length median value: 66 pixels, 3.5 interlines
+2024-02-18 03:59:56,237 INFO [Perfect#9]       StepMonitoring.java:98   | CUE_BEAMS
+2024-02-18 03:59:56,238 INFO [Perfect#9]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2024-02-18 03:59:56,239 INFO [Perfect#9]       StepMonitoring.java:98   | TEXTS
+2024-02-18 03:59:56,329 WARN [Perfect#9]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2024-02-18 03:59:56,330 INFO [Perfect#9]              OcrUtil.java:127  | No OCR'ed lines
+2024-02-18 03:59:56,333 INFO [Perfect#9]       StepMonitoring.java:98   | MEASURES
+2024-02-18 03:59:56,337 INFO [Perfect#9]                 Page.java:308  | 8 raw measures: [3 in system#1, 3 in system#2, 2 in system#3]
+2024-02-18 03:59:56,338 INFO [Perfect#9]       StepMonitoring.java:98   | CHORDS
+2024-02-18 03:59:56,345 INFO [Perfect#9]       StepMonitoring.java:98   | CURVES
+2024-02-18 03:59:57,224 INFO [Perfect#9]        CurvesBuilder.java:532  | Curve: SlurInfo{#8020[1244,3107][1276,3107] dist:3.30} Too many rookies: 56, giving up!
+2024-02-18 03:59:57,721 INFO [Perfect#9]        CurvesBuilder.java:532  | Curve: SlurInfo{#20649[1612,1934][1623,1934] dist:0.38} Too many rookies: 54, giving up!
+2024-02-18 03:59:57,837 INFO [Perfect#9]         SlursBuilder.java:240  | Slurs: 100
+2024-02-18 03:59:58,087 INFO [Perfect#9]      SegmentsBuilder.java:155  | Segments: 44
+2024-02-18 03:59:58,093 INFO [Perfect#9]       StepMonitoring.java:98   | SYMBOLS
+2024-02-18 03:59:58,751 INFO [Perfect#9]       StepMonitoring.java:98   | LINKS
+2024-02-18 03:59:58,789 INFO [Perfect#9]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#22750{(0.670) stf:8 OTTAVA BASSA}
+2024-02-18 03:59:58,819 INFO [Perfect#9]        SymbolsLinker.java:289  | No chord linked to OctaveShiftInter#23043{(0.670) stf:9 OTTAVA ALTA}
+2024-02-18 03:59:58,830 INFO [Perfect#9]       StepMonitoring.java:98   | RHYTHMS
+2024-02-18 03:59:58,830 INFO [Perfect#9]           PageRhythm.java:207  | {Page#9.1} Time value not yet available in sheet#5
+2024-02-18 03:59:58,900 INFO [Perfect#9]       StepMonitoring.java:98   | PAGE
+2024-02-18 03:59:58,919 WARN [Perfect#9]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2024-02-18 03:59:58,920 WARN [Perfect#9]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5, 6], please check time signatures
+2024-02-18 03:59:58,922 WARN [Perfect#9]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [7, 8], please check time signatures
+2024-02-18 03:59:58,925 INFO [Perfect#9]                 Book.java:2535 | Book{Perfect} storing
+2024-02-18 03:59:59,034 INFO [Perfect#9]                 Book.java:2515 | Stored /book.xml
+2024-02-18 03:59:59,088 INFO [Perfect#9]           DataHolder.java:348  | Stored /sheet#9/BINARY.png
+2024-02-18 03:59:59,822 INFO [Perfect#9]                Sheet.java:1529 | Stored /sheet#9/sheet#9.xml
+2024-02-18 03:59:59,828 INFO [Perfect#9]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 03:59:59,913 INFO [Perfect#9]            SheetStub.java:1605 | Disposed sheet#9
+2024-02-18 03:59:59,970 INFO [Perfect#9]                 Book.java:2035 | End of Stub#9 memory: 30,378,792
+2024-02-18 04:00:01,128 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#1/sheet#1.xml
+2024-02-18 04:00:01,662 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#2/sheet#2.xml
+2024-02-18 04:00:02,170 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#3/sheet#3.xml
+2024-02-18 04:00:02,760 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#4/sheet#4.xml
+2024-02-18 04:00:03,506 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#5/sheet#5.xml
+2024-02-18 04:00:04,164 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#6/sheet#6.xml
+2024-02-18 04:00:04,653 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#7/sheet#7.xml
+2024-02-18 04:00:05,131 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#8/sheet#8.xml
+2024-02-18 04:00:05,679 INFO [Perfect]            SheetStub.java:1044 | Loaded /sheet#9/sheet#9.xml
+2024-02-18 04:00:06,145 INFO [Perfect]      PartwiseBuilder.java:2645 | Exporting sheet(s): [#1#2#3#4#5#6#7#8#9]
+2024-02-18 04:00:06,150 INFO [Perfect]                 Part.java:353  | Sheet#1 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,155 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,156 INFO [Perfect]                 Part.java:353  | Sheet#1 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,156 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,156 INFO [Perfect]                 Part.java:353  | Sheet#1 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,157 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,198 INFO [Perfect]                 Part.java:353  | Sheet#2 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,202 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#2.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,203 INFO [Perfect]                 Part.java:353  | Sheet#2 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,203 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#2.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,203 INFO [Perfect]                 Part.java:353  | Sheet#2 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,204 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#2.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,248 INFO [Perfect]                 Part.java:353  | Sheet#3 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,249 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#3.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,249 INFO [Perfect]                 Part.java:353  | Sheet#3 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,250 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#3.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,251 INFO [Perfect]                 Part.java:353  | Sheet#3 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,251 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#3.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,267 INFO [Perfect]                 Part.java:353  | Sheet#4 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,268 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#4.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,269 INFO [Perfect]                 Part.java:353  | Sheet#4 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,269 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#4.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,269 INFO [Perfect]                 Part.java:353  | Sheet#4 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,270 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#4.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,284 INFO [Perfect]                 Part.java:353  | Sheet#5 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,285 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#5.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,287 INFO [Perfect]                 Part.java:353  | Sheet#5 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,288 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#5.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,288 INFO [Perfect]                 Part.java:353  | Sheet#5 System#4 Part#3{ staves[12] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,289 INFO [Perfect]                 Part.java:353  | Sheet#5 System#4 Part#3{ staves[12] configs:[5]} dummyPart id: 2
+2024-02-18 04:00:06,293 INFO [Perfect]                 Part.java:353  | Sheet#5 System#3 Part#1{ staves[9] configs:[5]} dummyPart id: 4
+2024-02-18 04:00:06,293 INFO [Perfect]                 Part.java:353  | Sheet#5 System#4 Part#3{ staves[12] configs:[5]} dummyPart id: 4
+2024-02-18 04:00:06,293 INFO [Perfect]                Score.java:451  | No deltaMeasureId for PageRef#1{sheetNumber:5}
+2024-02-18 04:00:06,294 INFO [Perfect]                 Part.java:353  | Sheet#6 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,294 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#6.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,294 INFO [Perfect]                 Part.java:353  | Sheet#6 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,294 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#6.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,295 INFO [Perfect]                 Part.java:353  | Sheet#6 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,295 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#6.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,307 INFO [Perfect]                Score.java:451  | No deltaMeasureId for PageRef#1{sheetNumber:5}
+2024-02-18 04:00:06,309 INFO [Perfect]                 Part.java:353  | Sheet#7 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,309 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#7.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,310 INFO [Perfect]                 Part.java:353  | Sheet#7 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,310 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#7.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,310 INFO [Perfect]                 Part.java:353  | Sheet#7 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,311 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#7.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,343 INFO [Perfect]                Score.java:451  | No deltaMeasureId for PageRef#1{sheetNumber:5}
+2024-02-18 04:00:06,343 INFO [Perfect]                 Part.java:353  | Sheet#8 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,344 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#8.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,344 INFO [Perfect]                 Part.java:353  | Sheet#8 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,344 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#8.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,345 INFO [Perfect]                 Part.java:353  | Sheet#8 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,348 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#8.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,368 INFO [Perfect]                Score.java:451  | No deltaMeasureId for PageRef#1{sheetNumber:5}
+2024-02-18 04:00:06,368 INFO [Perfect]                 Part.java:353  | Sheet#9 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,369 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#1 in {Page#9.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,369 INFO [Perfect]                 Part.java:353  | Sheet#9 System#2 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,370 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#2 in {Page#9.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,370 INFO [Perfect]                 Part.java:353  | Sheet#9 System#3 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2024-02-18 04:00:06,370 WARN [Perfect]      PartwiseBuilder.java:3116 | Error visiting System#3 in {Page#9.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.getFirstMeasureClef(int)" because "refMeasure" is null
+	at org.audiveris.omr.sheet.Part.createDummyPart(Part.java:384)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3098)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1804)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3045)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2648)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2832)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3420)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:666)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:887)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:490)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:363)
+	at org.audiveris.omr.Main.main(Main.java:252)
+	at Audiveris.main(Audiveris.java:50)
+2024-02-18 04:00:06,525 INFO [Perfect]        ScoreExporter.java:164  | Score Perfect exported to /output/Perfect.mxl
+2024-02-18 04:00:06,659 INFO [Perfect]                 Book.java:2515 | Stored /book.xml
+2024-02-18 04:00:07,301 INFO [Perfect]                Sheet.java:1529 | Stored /sheet#1/sheet#1.xml
+2024-02-18 04:00:07,885 INFO [Perfect]                Sheet.java:1529 | Stored /sheet#2/sheet#2.xml
+2024-02-18 04:00:08,447 INFO [Perfect]                Sheet.java:1529 | Stored /sheet#3/sheet#3.xml
+2024-02-18 04:00:09,071 INFO [Perfect]                Sheet.java:1529 | Stored /sheet#4/sheet#4.xml
+2024-02-18 04:00:09,295 INFO [Perfect]                Sheet.java:1529 | Stored /sheet#5/sheet#5.xml
+2024-02-18 04:00:09,296 INFO [Perfect]                 Book.java:2476 | Book stored as /output/Perfect.omr
+2024-02-18 04:00:09,367 INFO [Perfect]                Score.java:187  | Closing {Score 1}
